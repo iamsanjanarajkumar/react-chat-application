@@ -1,0 +1,30 @@
+$chat-bg: #ededed;
+$white: #fff;
+
+.chat-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+    width: calc(100% - 12vw);
+    i{
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+    
+    .input-box{
+        background: $white;
+        width: calc(100% - 120px);
+        padding: 30px;
+
+       input{
+        padding: 10px;
+        width: calc(100% - 20%);
+        outline: none;
+        border-bottom: 1px solid $white;
+        background-color: $chat-bg;
+        border-radius: 10px;
+        margin-left: 10px;
+       }
+    }
+}
